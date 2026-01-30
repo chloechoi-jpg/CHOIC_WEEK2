@@ -1,12 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap");
 * { margin: 0; padding: 0; box-sizing: border-box; }
-body { font-family: "Space Mono", monospace; max-width: 900px; margin: 0 auto; padding: 3rem 2rem; background: #0a0a0a; color: #e0e0e0; line-height: 1.8; border: 2px solid #663399; box-shadow: 0 0 20px rgba(102, 51, 153, 0.6), inset 0 0 15px rgba(102, 51, 153, 0.15); }
-h1, h2, h3 { text-transform: uppercase; letter-spacing: 1.5px; margin: 1.5rem 0 1rem; }
-h1 { font-size: 2.5rem; color: #fff; border-bottom: 3px solid #663399; padding-bottom: 1rem; text-shadow: 0 0 10px #663399; }
-h2 { font-size: 1.6rem; color: #b19cd9; border-left: 4px solid #663399; padding-left: 1rem; }
-h3 { font-size: 1.2rem; color: #e0e0e0; }
+body { font-family: "Space Mono", monospace; max-width: 900px; margin: 0 auto; padding: 3rem 2rem; background: #0a0a0a; color: #e0e0e0; line-height: 1.8; border: 2px solid #663399; box-shadow: 0 0 20px rgba(102, 51, 153, 0.5); }
+h1 { font-size: 2.5rem; color: #fff; border-bottom: 3px solid #663399; padding-bottom: 0.8rem; margin-bottom: 1.5rem; text-transform: uppercase; letter-spacing: 1.5px; }
+h2 { font-size: 1.6rem; color: #b19cd9; border-left: 4px solid #663399; padding-left: 1rem; margin: 1.5rem 0 1rem; text-transform: uppercase; }
+h3 { font-size: 1.2rem; color: #e0e0e0; margin: 1.5rem 0 1rem; }
 p { margin-bottom: 1.5rem; color: #c0c0c0; text-align: justify; }
-p:first-of-type { color: #b19cd9; background: rgba(102, 51, 153, 0.2); padding: 1.2rem; border-left: 3px solid #663399; font-weight: 600; }
+p:first-of-type { color: #b19cd9; background: rgba(102, 51, 153, 0.2); padding: 1rem; border-left: 3px solid #663399; font-weight: 600; }
 ol { margin: 2rem 0 2rem 2.5rem; } ol li { color: #c0c0c0; margin-bottom: 1rem; } strong { color: #b19cd9; font-weight: 700; }
 @media (max-width: 768px) { body { padding: 2rem 1.5rem; } h1 { font-size: 1.8rem; } h2 { font-size: 1.3rem; } p { text-align: left; } }
 
